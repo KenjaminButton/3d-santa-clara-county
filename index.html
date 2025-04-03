@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa Clara County 3D Tour</title>
+
+    <!-- Link to Mapbox GL JS CSS -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- Link to our custom CSS -->
+    <link href='style.css' rel='stylesheet' />
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- Left Sidebar for Destinations -->
+        <div id="sidebar">
+            <h2>Top Destinations in Santa Clara County</h2>
+            <ul id="destination-list">
+                <!-- List items will be added here by JavaScript -->
+                <li>Loading destinations...</li>
+            </ul>
+        </div>
+
+        <!-- Map Container -->
+        <div id="map"></div>
+    </div>
+
+    <!-- Link to Mapbox GL JS JavaScript -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.js'></script>
+
+    <!-- Link to our custom JavaScript -->
+    <script src='script.js'></script>
+
+</body>
+</html>
