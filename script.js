@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // !!! IMPORTANT: Replace this with your actual Mapbox Access Token !!!
   // mapboxgl.accessToken = 'YOUR MAPBOX ACCESS TOKEN HERE';
-  mapboxgl.accessToken = MAPBOX_TOKEN;
+  mapboxgl.accessToken = process.env.MAPBOX_ACCESS_TOKEN;
 
   // Define the tourist destinations with their coordinates (longitude, latitude)
   // Also adding preferred zoom, pitch (tilt), and bearing (rotation) for flyTo animation

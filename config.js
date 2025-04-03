@@ -1,2 +1,0 @@
-const MAPBOX_TOKEN = '__MAPBOX_TOKEN__';
-
